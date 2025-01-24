@@ -2,6 +2,9 @@
 <idea-plugin>
     <id>io.mamad.astgrepjetbrains</id>
     <name>ast-grep</name>
+    <description><![CDATA[
+    This plugin integrates ast-grep with JetBrains IDEs to provide code diagnostics based on ast-grep rules. It highlights issues as info, warnings, or errors, helping you identify potential problems more quickly. You can configure it by specifying an AST-Grep configuration file, and it currently supports code diagnostics only. Future updates may add additional features.
+    ]]></description>
     <vendor>io.mamad</vendor>
 
     <depends>com.intellij.modules.platform</depends>

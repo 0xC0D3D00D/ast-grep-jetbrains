@@ -5,7 +5,7 @@
 [![Downloads](https://img.shields.io/jetbrains/plugin/d/26387-ast-grep.svg)](https://plugins.jetbrains.com/plugin/26387-ast-grep)
 
 <!-- Plugin description -->
-This plugin integrates ast-grep lsp server with JetBrains IDEs. Currently, it only supports diagnostics information so you will see the warnings/errors based on the rules you have configured.
+This plugin integrates ast-grep with JetBrains IDEs to provide code diagnostics based on ast-grep rules. It highlights issues as info, warnings, or errors, helping you identify potential problems more quickly. You can configure it by specifying an AST-Grep configuration file, and it currently supports code diagnostics only. Future updates may add additional features.
 <!-- Plugin description end -->
 
 ## Installation
