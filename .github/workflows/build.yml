@@ -175,7 +175,7 @@ jobs:
   verify:
     name: Verify plugin
     needs: [ build ]
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
 
       # Free GitHub Actions Environment Disk Space
@@ -225,7 +225,7 @@ jobs:
     name: Release draft
     if: github.event_name != 'pull_request'
     needs: [ build, test, inspectCode, verify ]
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     permissions:
       contents: write
     steps:
